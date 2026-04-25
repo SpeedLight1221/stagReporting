@@ -10,5 +10,16 @@ public class Action
     @SerializedName("ucitIdno")
     public long teacherId;
 
+    @SerializedName("rok")
+    public String year;
+
+    @SerializedName("den")
+    public String day;
+
+    @SerializedName("denZkr")
+    public String shortDay;
+
+    public int roakIdno;
+
 
 }
